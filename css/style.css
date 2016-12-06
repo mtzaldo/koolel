@@ -1,0 +1,253 @@
+/*.row > * {
+	border:1px solid #fff;
+}*/
+body {
+	background-color: #000;
+}
+
+h1 {
+
+	color: #fff;
+	margin: 0;
+	padding: 0;
+
+	font-size: large;
+}
+
+.pg {
+	overflow: hidden;
+	margin-top:50px;
+}
+
+.k {
+	background-size: auto 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.logo-yw {
+	background-image: url("../img/logo-yw.png");
+}
+.logo-wt {
+	background-image: url("../img/logo-wt.png");
+}
+
+/* MENU */
+#menu {
+	width: 100%;
+
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 999;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+	color: #FEC216;
+	font-size: large;
+	text-align: center;
+}
+
+.menu a {
+
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.submenu {
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.submenu > li {
+	width: 200px;
+	box-sizing: border-box;
+	border-bottom: 1px #FEC216 solid;
+}
+
+.submenu.display {
+	display: block;
+}
+.submenu.hide {
+	display: none;
+}
+
+/* ---- */
+
+#logo {
+	vertical-align: top;
+}
+
+.home {
+	text-align: center;
+}
+
+.text-content {
+	width: 600px;
+
+	margin: 0;
+	padding: 80px 10px 10px 20px;
+	
+	color: #fff;
+	font-size:medium;
+
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+/*.historia, .fundadoras, .productos, .santuario, .contacto {
+
+	display: none;
+
+}*/
+
+.historia, .productos, .santuario, .contacto {
+
+	height: 600px;
+
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.historia.cooperativa {
+	background-image: url("../img/historia/hist-1.jpg");
+}
+.historia.calakmul {
+	background-image: url("../img/historia/hist-2.jpg");
+}
+.historia.melipona {
+	background-image: url("../img/historia/hist-3.jpg");
+}
+
+h1.icon:before {
+	content: "";
+	margin: 5px;
+	margin-left: 0px;
+	height: 40px;
+	width: 40px;
+	
+	display: inline-block;
+	vertical-align: middle;
+	background-position: left;
+	background-size: auto 100%;
+}
+h1.bee:before {
+	background-image: url("../img/historia/bee.png");
+}
+h1.piram:before {
+	background-image: url("../img/historia/piram.png");
+}
+h1.melipona:before {
+	background-image: url("../img/historia/melipona.png");
+}
+/* Fundadoras */
+.fundadoras {
+	flex-flow: column;
+}
+.fund > div {
+	width: 400px;
+	height: 300px;
+	margin: 0;
+
+	font-weight: bold;
+	font-size: large;
+
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.fund .name {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-flow: column-reverse;
+	align-items: center;
+	justify-content: center;
+
+	color: transparent;
+	background-color: transparent;
+}
+
+.fund .name:hover {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#avia {
+	background-image: url("../img/fund/avia.png");
+}
+#leydi {
+	background-image: url("../img/fund/leydi.png");
+}
+#carmen {
+	background-image: url("../img/fund/carmen.png");
+}
+#socorro {
+	background-image: url("../img/fund/socorro.png");
+}
+#eleonor {
+	background-image: url("../img/fund/eleonor.png");
+}
+#enelda {
+	background-image: url("../img/fund/enelda.png");
+}
+
+/* Productos */
+
+.productos {
+	background-image: url("../img/productos/pro-1.jpg");
+}
+
+h1.product:before {
+	background-image: url("../img/productos/pro.png");
+}
+
+/* Santuario */
+.santuario {
+	background-image: url("../img/santuario/san.jpg");
+}
+
+/* Contacto */
+.contacto {
+	background-image: url("../img/contacto/contacto.jpg");
+	background-position: bottom center;
+}
+
+.contacto > div {
+	width: 100%;
+	background-color: rgba(255, 222, 0, 0.4);
+	margin: 0;
+}
+
+.contacto .info {
+	
+	height: 600px;
+	width: 1200px;
+	position: absolute;
+
+	background-image: url("../img/contacto/mapa.png");
+	background-repeat: no-repeat;
+	background-position: 500px 20px;
+	background-size: auto 600px;
+
+}
+
+.contacto .info-text {
+
+	font-size: large;
+
+	margin-top:200px;
+	margin-left: 150px;
+}
+

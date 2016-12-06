@@ -1,0 +1,83 @@
+body {
+
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+hr {
+	height: 5px;
+	width: 100%;
+	background-color: #000;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+/* Shared Classes */
+.section {
+	width: 100%;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column;
+}
+
+.row {
+	width: 1200px;
+	display: flex;
+}
+
+.row > * {
+	box-sizing: border-box;
+	margin: 5px 10px;
+}
+
+.col-1 {
+	width: 80px;
+}
+.col-2 {
+	width: 180px;
+}
+.col-3 {
+	width: 280px;
+}
+.col-4 {
+	width: 380px;
+}
+.col-5 {
+	width: 480px;
+}
+.col-6 {
+	width: 580px;
+}
+.col-7 {
+	width: 680px;
+}
+.col-8 {
+	width: 780px;
+}
+.col-9 {
+	width: 880px;
+}
+.col-10 {
+	width: 980px;
+}
+.col-11 {
+	width: 1080px;
+}
+.col-12 {
+	width: 1180px;
+}
